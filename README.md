@@ -32,11 +32,3 @@ To disable Windows Update permanently, follow these steps:
 7. Inside "WindowsUpdate", create a new folder named "AU".
 8. Create a DWORD (32-bit) value named "NoAutoUpdate".
 9. Set the value of "NoAutoUpdate" to 1.
-
-## Contributions
-
-Contributions to this guide are welcome. If you have any additional tips or improvements, feel free to open an issue or pull request.
-
-## License
-
-This guide is licensed under the [MIT License](LICENSE).
