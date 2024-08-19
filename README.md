@@ -1,6 +1,6 @@
 # Windows System Configuration Guide
 
-This repository contains step-by-step guides for configuring and managing Windows systems. Whether you're looking to block specific domains using the firewall or disable Windows updates permanently, this guide has you covered.
+This repository contains step-by-step guides for configuring and managing Windows systems. Whether you're looking to block specific domains using the firewall or disable Windows updates permanently, and installing essential software, this guide has you covered.
 
 ## Blocking Domain using Firewall
 
@@ -32,3 +32,25 @@ To disable Windows Update permanently, follow these steps:
 7. Inside "WindowsUpdate", create a new folder named "AU".
 8. Create a DWORD (32-bit) value named "NoAutoUpdate".
 9. Set the value of "NoAutoUpdate" to 1.
+
+
+## HOW TO ACTIVATE WINDOWS
+
+1. Search for KMS client Activation
+2. Copy the Product key for your OS
+3. cmd run as admin
+4. slmgr /ipk (paste product key)
+5. slmgr /skms kms9.MSGuides.com
+6. slmgr /ato
+7. exit
+
+
+## HOW TO INSTALL MS OFFICE
+
+1. Search for `Office Deployment Tool`
+2. Search for `Office Customization Tool`
+3. Office Suites -> Office Professional Plus 2019 - Volume License
+4. Languages -> English (United States)
+5. After that, keep everything as Default. then Export
+6. cd c:\office 2019
+7. setup.exe /configure configuration.xml 
