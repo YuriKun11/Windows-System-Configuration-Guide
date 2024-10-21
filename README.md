@@ -53,4 +53,37 @@ To disable Windows Update permanently, follow these steps:
 4. Languages -> English (United States)
 5. After that, keep everything as Default. then Export
 6. cd c:\office 2019
-7. setup.exe /configure configuration.xml 
+7. setup.exe /configure configuration.xml
+
+## HOW TO SETUP FIREWALL FOR LOCAL ACCESS
+
+Select 'Inbound Rules':
+In the left pane, click on "Inbound Rules."
+
+Create a New Rule:
+In the right pane, click on "New Rule."
+
+Choose Rule Type:
+Select "Port" and click "Next."
+
+Specify Ports:
+Choose "TCP" and enter 80, 443 in the "Specific local ports" field.
+Click "Next."
+
+Allow the Connection:
+Select "Allow the connection" and click "Next."
+
+Profile Selection:
+Choose when this rule applies (Domain, Private, Public). Usually, you can select all three, depending on your network settings.
+Click "Next."
+
+Name the Rule:
+Give your rule a name, like "Allow HTTP and HTTPS."
+Optionally, provide a description.
+Click "Finish."
+
+Step 4: Verify the Rules
+Check Inbound Rules:
+In the "Inbound Rules" list, locate your newly created rule to ensure it’s enabled.
+
+Step 5: Test the Configuration
