@@ -87,3 +87,7 @@ Check Inbound Rules:
 In the "Inbound Rules" list, locate your newly created rule to ensure it’s enabled.
 
 Step 5: Test the Configuration
+
+## Change IP Address name
+
+notepad C:\Windows\System32\drivers\etc\hosts
