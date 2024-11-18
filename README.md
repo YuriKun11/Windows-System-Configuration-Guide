@@ -96,4 +96,8 @@ notepad C:\Windows\System32\drivers\etc\hosts
 
 ### List to disable: 
 - Cortana
-
+- Update the windows to the latest then disable
+- Connected User Experience and Telemetry
+- SysMain
+- Windows Search
+- Windows Update
