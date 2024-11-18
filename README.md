@@ -91,3 +91,9 @@ Step 5: Test the Configuration
 ## Change IP Address name
 
 notepad C:\Windows\System32\drivers\etc\hosts
+
+## Speed up your slow laptop
+
+### List to disable: 
+- Cortana
+
