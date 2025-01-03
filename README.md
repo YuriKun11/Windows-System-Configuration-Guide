@@ -101,3 +101,8 @@ notepad C:\Windows\System32\drivers\etc\hosts
 - SysMain
 - Windows Search
 - Windows Update
+
+## Enable Windows Defender Service-
+```
+C:\Program Files\Windows Defender\mpcmdrun.exe" -wdenable
+```
